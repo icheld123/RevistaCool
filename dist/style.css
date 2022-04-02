@@ -42,7 +42,7 @@ body .logo {
   font-size: 20px;
   padding: 33px 30px 30px 30px;
   line-height: 0;
-  color: var(--yellow);
+  color: #000;
 }
 body .pagenumber {
   position: absolute;
@@ -99,7 +99,7 @@ body .pages {
   top: 50%;
   transform: translateY(-50%);
   perspective: var(--perspective);
-  box-shadow: 0 41px 38px -20px #0a3150;
+  box-shadow: 0 41px 38px -20px #005883;
   max-width: 1300px;
   max-height: 650px;
 }
@@ -694,19 +694,21 @@ body .pages_page:nth-of-type(odd) .pages_page__inner {
 body .pages_page:nth-of-type(1) .pages_page__inner {
   background-size: 880px !important;
   background-position: center !important;
-  background: url("https://cdnfl01.viewbug.com/media/mediafiles/2017/10/16/75667840_large.jpg");
+  background: rgba(255, 255, 255, 0.3019607843);
 }
+/*IMAGENES DE PÁGINAS*/
 body .pages_page:nth-of-type(2) .pages_page__inner {
-  background-size: 870px !important;
+  background-size: 1000px !important;
   background-position: center !important;
-  background: url("https://data.whicdn.com/images/86911589/original.jpg");
+  background: url("/img/laptop-4906312.jpg");
 }
 body .pages_page:nth-of-type(2) .pages_page__inner h4 {
   color: black;
   z-index: 3;
 }
+/*Color de fondo de página 2*/
 body .pages_page:nth-of-type(3) .pages_page__inner {
-  background: url("https://iso.500px.com/wp-content/uploads/2014/12/fashion_1.jpg");
+  background: rgba(0, 88, 131);
   background-position: 0 0;
 }
 body .pages_page:nth-of-type(3) .pages_page__inner .content {
@@ -718,7 +720,7 @@ body .pages_page:nth-of-type(3) .pages_page__inner .content {
   position: absolute;
 }
 body .pages_page:nth-of-type(6) .pages_page__inner {
-  background: #4a5f5c;
+  background: #F0B429;
 }
 body .pages_page:nth-of-type(4) .pages_page__inner .content {
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%);
@@ -734,21 +736,22 @@ body .pages_page:nth-of-type(4) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("https://iso.500px.com/wp-content/uploads/2014/12/fashion_1.jpg");
-  background-size: 1400px !important;
+  background: url("/img/graduation-cap-3430714.jpg");
+  background-size: 1000px !important;
   left: -100%;
 }
 body .pages_page:nth-of-type(5) .pages_page__inner {
-  background: url("http://cdn.lightgalleries.net/4d80d92265da9/images/Tayna16-12_90574-2.jpg");
+  background: rgba(255, 255, 255, 0.7);
   background-size: 870px !important;
   background-position: center !important;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner {
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: #005883;  
   background-position: 0 0;
   background-size: 1400px !important;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section {
+  background-color: rgba(0, 88, 131, 0.7);
   position: absolute;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section h2 {
@@ -777,7 +780,7 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(
   width: 260px;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner {
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("/img/people-2557396.jpg");
   background-position: 0 0;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner .content {
@@ -794,13 +797,12 @@ body .pages_page:nth-of-type(8) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("/img/people-2557396.jpg");
   background-size: 1400px !important;
   left: -100%;
 }
 body .pages_page__inner {
-  background: url("https://www.colorfusionstudio.com/wp-content/uploads/2015/07/cfs-models-003-683x1024.jpg");
-  background-size: 1400px !important;
+  background-size: 1200px !important;
   height: 100%;
   transform-style: preserve-3d;
 }
@@ -809,7 +811,7 @@ body .pages_page__inner .control {
   z-index: 1;
   width: 31px;
   height: 31px;
-  border: 1px solid var(--yellow);
+  border: 1px solid #000;
   border-radius: 100px;
   top: 50%;
   transform: translateY(-50%);
@@ -872,7 +874,7 @@ body .pages_page__inner .control:before {
   display: block;
   width: 32px;
   height: 1px;
-  background: var(--yellow);
+  background: #000;
   top: 50%;
   transform: translateY(-50%);
   left: -32px;
@@ -930,16 +932,17 @@ body .pages_page__inner .content_center img {
 body .pages_page__inner .content_center .logo {
   font-size: 30px;
 }
+/*Fuente de página 4 y 5*/
 body .pages_page__inner .content_center h4,
 body .pages_page__inner .content_center h6 {
-  color: var(--yellow);
+  color: #fff;
   font-size: 38px;
   font-weight: normal;
   margin: 0;
   line-height: 38px;
 }
 body .pages_page__inner .content_center h4 {
-  color: var(--yellow);
+  color: #000;
   font-size: 38px;
   font-weight: normal;
   margin: 0;
@@ -951,7 +954,6 @@ body .pages_page__inner .content_center h4 {
 body .pages_page__inner .content_center h6 {
   font-size: 20px;
   margin: 0;
-  opacity: 0.5;
 }
 body .pages_page__inner .content_center h6:nth-of-type(2) {
   font-size: 16px;
@@ -970,15 +972,44 @@ body .pages_page__inner .content_picture {
   transform: translateX(-40px);
   top: 294px;
 }
+/*Cajas de texto de página 4*/
+body .pages_page__inner .content #texto-pag4_1,
+body .pages_page__inner .content #texto-pag4_2,
+body .pages_page__inner .content #texto-pag4_3,
+body .pages_page__inner .content #texto-pag4_4{
+  text-align: center;
+  color: #000;
+  width: 70%;
+}
+body .pages_page__inner .content #texto-pag4_1{
+  margin: 20% 5% 5% 5%;
+}
+body .pages_page__inner .content #texto-pag4_2{
+  margin: 30% 5% 5% 5%;
+}
+body .pages_page__inner .content #texto-pag4_3{
+  margin: 20% 5% 5% 25%;
+}
+body .pages_page__inner .content #texto-pag4_4{
+  margin: 30% 5% 5% 25%;
+}
+
+body .pages_page__inner .content #texto-pag4_1 h2,
+body .pages_page__inner .content #texto-pag4_2 h2,
+body .pages_page__inner .content #texto-pag4_3 h2,
+body .pages_page__inner .content #texto-pag4_4 h2{
+  margin: -10% 5%;
+}
 body .pages_page__inner .content_picture img {
   width: 100%;
   margin: 0;
   display: inline-block;
 }
 body .pages_page__inner .content_quote {
+  background-color: #005883;
   position: absolute;
-  left: calc(50% + 250px);
-  bottom: 100px;
+  left: calc(40% + 200px);
+  bottom: 50px;
   width: 200px;
 }
 body .pages_page__inner .content_quote h5 span {
@@ -1013,13 +1044,14 @@ body .pages_page__inner .content_quote h5 span.quo:nth-of-type(1) i {
   font-style: normal;
   position: relative;
 }
+/*Caja de texto página 2*/
 body .pages_page__inner .content_offset {
   position: absolute;
-  width: 280px;
-  top: 260px;
-  left: 50%;
+  width: 300px;
+  top: 300px;
+  left: 53%;
   transform: translateX(-350px);
-  color: var(--yellow);
+  background-color: rgba(0, 88, 131);
 }
 body .pages_page__inner .content_offset h2,
 body .pages_page__inner .content_offset p {
@@ -1033,18 +1065,19 @@ body .pages_page__inner .content_offset h2 {
   margin: 20px 0 8px 0;
 }
 body .pages_page__inner .content_offset p {
-  font-size: 13px;
-  line-height: 20px;
-  color: var(--yellow);
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
 }
+/*Color del titulo página 2*/
 body .pages_page__inner .content h1 {
-  font-size: 53px;
-  color: var(--yellow);
+  font-size: 40px;
+  color: #000;
   text-transform: uppercase;
-  padding: 120px;
+  padding: 100px;
   margin: 0;
   font-weight: normal;
-  letter-spacing: -6px;
+  letter-spacing: -3px;
   line-height: 51px;
   transform-style: preserve-3d;
 }
