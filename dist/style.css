@@ -737,7 +737,7 @@ body .pages_page:nth-of-type(4) .pages_page__inner .bg {
   width: 200%;
   position: relative;
   background: url("/img/graduation-cap-3430714.jpg");
-  background-size: 1000px !important;
+  background-size: 1600px !important;
   left: -100%;
 }
 body .pages_page:nth-of-type(5) .pages_page__inner {
@@ -943,13 +943,20 @@ body .pages_page__inner .content_center h6 {
 }
 body .pages_page__inner .content_center h4 {
   color: #000;
-  font-size: 38px;
+  font-size: 2em;
   font-weight: normal;
   margin: 0;
-  line-height: 38px;
+  line-height: 28px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  padding: 15px 20px 29px;
+  padding: 5px 20px 20px;
+}
+@media (max-width: 1000px) {
+  body .pages_page__inner .content_center h4 {
+    line-height: 95%;
+    padding: 5px 20px 7px!important;
+    font-size: 1.6em!important;
+  }
 }
 body .pages_page__inner .content_center h6 {
   font-size: 20px;
@@ -966,11 +973,16 @@ body .pages_page__inner .content_center.right {
   clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }
 body .pages_page__inner .content_picture {
-  width: 220px;
+  width: 30%;
   position: absolute;
   left: 50%;
   transform: translateX(-40px);
-  top: 294px;
+  top: 30%;
+}
+@media (max-width: 1000px) {
+  body .pages_page__inner .content_picture {
+    top: 40%;
+  }
 }
 /*Cajas de texto de página 4*/
 body .pages_page__inner .content #texto-pag4_1,
@@ -979,19 +991,20 @@ body .pages_page__inner .content #texto-pag4_3,
 body .pages_page__inner .content #texto-pag4_4{
   text-align: center;
   color: #000;
-  width: 70%;
+  width: 80%;
+  font-size: 1.2em;
 }
 body .pages_page__inner .content #texto-pag4_1{
-  margin: 20% 5% 5% 5%;
+  margin: 10% 5% 5% 5%;
 }
 body .pages_page__inner .content #texto-pag4_2{
-  margin: 30% 5% 5% 5%;
+  margin: 20% 5% 5% 5%;
 }
 body .pages_page__inner .content #texto-pag4_3{
-  margin: 20% 5% 5% 25%;
+  margin: 10% 5% 5% 15%;
 }
 body .pages_page__inner .content #texto-pag4_4{
-  margin: 30% 5% 5% 25%;
+  margin: 20% 5% 5% 15%;
 }
 
 body .pages_page__inner .content #texto-pag4_1 h2,
@@ -1000,24 +1013,51 @@ body .pages_page__inner .content #texto-pag4_3 h2,
 body .pages_page__inner .content #texto-pag4_4 h2{
   margin: -5% 5%;
 }
+/*Media queries de cajas de texto*/
+@media (max-width: 1000px) {
+  body .pages_page__inner .content #texto-pag4_1,
+  body .pages_page__inner .content #texto-pag4_2,
+  body .pages_page__inner .content #texto-pag4_3,
+  body .pages_page__inner .content #texto-pag4_4{
+    font-size: 1.1em;
+    width: 75%;
+  }
+  body .pages_page__inner .content #texto-pag4_1{
+    margin: 10% 5% 5% 5%;
+  }
+  body .pages_page__inner .content #texto-pag4_2{
+    margin: 23% 5% 5% 5%;
+  }
+  body .pages_page__inner .content #texto-pag4_3{
+    margin: 10% 5% 5% 15%;
+  }
+  body .pages_page__inner .content #texto-pag4_4{
+    margin: 23% 5% 5% 15%;
+  }  
+}
 body .pages_page__inner .content_picture img {
   width: 100%;
   margin: 0;
   display: inline-block;
 }
 body .pages_page__inner .content_quote {
-  background-color: #005883;
+  background-color: rgba(0, 88, 131);
   position: absolute;
   left: calc(40% + 200px);
   bottom: 50px;
-  width: 200px;
+  width: 35%;
 }
 body .pages_page__inner .content_quote h5 span {
   display: block;
-  color: var(--yellow);
-  font-size: 34px;
+  color: #fff;
+  font-size: 2em;
   font-weight: normal;
   line-height: 24px;
+}
+@media (max-width: 1000px) {
+  body .pages_page__inner .content_quote h5 span {
+    font-size: 1.8em;
+  }
 }
 body .pages_page__inner .content_quote h5 span.name, body .pages_page__inner .content_quote h5 span.auth {
   font-size: 13px;
@@ -1068,6 +1108,19 @@ body .pages_page__inner .content_offset p {
   font-size: 25px;
   line-height: 30px;
   color: #fff;
+}
+/*Media queries para pantallas grandes*/
+@media (min-width: 1000px){
+  body .pages_page__inner .content_offset {
+    width: 35%;
+    left: 35%;
+    transform: translateX(-350px);
+  }
+  body .pages_page__inner .content_offset p {
+    margin-top: -15%;
+    line-height: 1em;
+    font-size: 2em;
+  }
 }
 /*Color del titulo página 2*/
 body .pages_page__inner .content h1 {
