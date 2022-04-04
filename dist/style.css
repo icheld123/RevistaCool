@@ -756,6 +756,7 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section {
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section h2 {
   margin: 0;
+  line-height: 25px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section h2,
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
@@ -763,21 +764,25 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
   color: var(--yellow);
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
-  line-height: 18px;
+  line-height: 25px;
   opacity: 0.95;
-  font-size: 13px;
+  font-size: 1.5em;
+  color: #fff;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(1) {
-  top: 100px;
-  width: 200px;
+  top: 60px;
+  margin-left: -10%;
+  width: 500px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(2) {
-  top: 274px;
-  width: 300px;
+  top: 220px;
+  width: 500px;
+  margin-left: -20%;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(3) {
   top: 410px;
-  width: 260px;
+  width: 600px;
+  margin-left: -15%;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner {
   background: url("/img/people-2557396.jpg");
@@ -916,6 +921,7 @@ body .pages_page__inner .content_centerimage img {
   width: 100%;
 }
 body .pages_page__inner .content_center {
+  line-height: 5px;
   position: absolute;
   text-align: center;
   width: 260px;
