@@ -698,9 +698,7 @@ body .pages_page:nth-of-type(1) .pages_page__inner {
 }
 /*IMAGENES DE PÁGINAS*/
 body .pages_page:nth-of-type(2) .pages_page__inner {
-  background-size: 1000px !important;
-  background-position: center !important;
-  background: url("/img/laptop-4906312.jpg");
+  background-color: #bf9726;
 }
 body .pages_page:nth-of-type(2) .pages_page__inner h4 {
   color: black;
@@ -736,7 +734,7 @@ body .pages_page:nth-of-type(4) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("/img/graduation-cap-3430714.jpg");
+  background-color: #fff;
   background-size: 1600px !important;
   left: -100%;
 }
@@ -785,7 +783,7 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(
   margin-left: -15%;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner {
-  background: url("/img/people-2557396.jpg");
+  background-color: #bf9726;
   background-position: 0 0;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner .content {
@@ -802,7 +800,7 @@ body .pages_page:nth-of-type(8) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("/img/people-2557396.jpg");
+  background-color: #bf9726;
   background-size: 1400px !important;
   left: -100%;
 }
